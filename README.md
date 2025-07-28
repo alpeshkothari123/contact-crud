@@ -11,3 +11,13 @@ This Laravel application allows users to:
 - MySQL
 - Blade templating
 - XML file upload
+
+git clone https://github.com/alpeshkothari123/contact-crud.git
+cd contact-crud
+composer install
+cp .env.example .env
+php artisan key:generate
+
+
+php artisan migrate
+php artisan serve
